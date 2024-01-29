@@ -1,0 +1,102 @@
+{
+  "unpublishedPage": {
+    "name": "Home",
+    "slug": "home",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1292,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home_Find_Sheet11",
+              "name": "Find_Sheet11",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "primEduBoard.filterText",
+                "primEduBoard.filterText ? \"Name of the board\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Find_Sheet_19",
+              "name": "Find_Sheet_19",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "presentAddCountry.filterText ? \"Country\" : \"\"",
+                "presentAddCountry.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Find_allotedCourse1",
+              "name": "Find_allotedCourse1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "compExamAllotedCourse.filterText",
+                "compExamAllotedCourse.filterText ? \"Alloted Course\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Find_compExams1",
+              "name": "Find_compExams1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "compExamName.filterText",
+                "compExamName.filterText ? \"Competitve Exams\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Find_secondaryEducation1",
+              "name": "Find_secondaryEducation1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select1Copy.filterText",
+                "Select1Copy.filterText ? \"Name of the board\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Home",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "65b7bcfa7f37074a84b3afec_65b7bcfa7f37074a84b3aff0"
+}
