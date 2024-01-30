@@ -55,7 +55,6 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "VINNumber": {
@@ -187,7 +186,6 @@
                 "iconAlign": "left",
                 "position": 7,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "CreatedOn": {
@@ -242,8 +240,8 @@
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
-    "topRow": 1,
-    "bottomRow": 86,
+    "topRow": 0,
+    "bottomRow": 67,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update Row VehicleId: {{data_table.selectedRow.VehicleId}}",
