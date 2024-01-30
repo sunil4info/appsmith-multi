@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "SignIn",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Home",
@@ -10,7 +10,7 @@
     },
     {
       "id": "RegisterStudent",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Vehicles",
