@@ -89,7 +89,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "CreatedBy",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Created By",
                 "originalIdentifier": "CreatedBy",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -155,7 +155,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "VehicleId",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Vehicle Id",
                 "originalIdentifier": "VehicleId",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -164,7 +164,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "UpdatedOn": {
