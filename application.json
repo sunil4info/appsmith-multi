@@ -6,22 +6,14 @@
     },
     {
       "id": "Home",
-      "isDefault": true
-    },
-    {
-      "id": "Page1",
       "isDefault": false
     },
     {
       "id": "RegisterStudent",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Vehicles",
-      "isDefault": false
-    },
-    {
-      "id": "Public.Vehicles",
       "isDefault": false
     }
   ],
