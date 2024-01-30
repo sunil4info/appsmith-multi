@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Home Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -75,7 +75,7 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
@@ -92,9 +92,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-18T10:17:10Z"
+    "createdAt": "2024-01-29T17:59:11Z"
   },
-  "id": "Home_Find_compExams1",
+  "id": "Home Copy_Find_compExams1",
   "deleted": false,
-  "gitSyncId": "65b7bcfa7f37074a84b3afec_65b7bcfa7f37074a84b3b005"
+  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5be0"
 }

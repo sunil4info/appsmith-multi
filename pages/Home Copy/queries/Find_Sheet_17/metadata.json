@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Find_compExams1",
+    "name": "Find_Sheet_17",
     "datasource": {
       "name": "fleetManagementDS",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Home Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -24,7 +24,7 @@
           "data": "FETCH_MANY"
         },
         "entityType": {
-          "data": "SPREADSHEET"
+          "data": "ROWS"
         },
         "pagination": {
           "data": {
@@ -42,21 +42,13 @@
           "data": ""
         },
         "sheetName": {
-          "data": "compExams"
+          "data": "Sheet 1"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1uMWHr4-eUVqfdem3r8A60x1__Hph2q0MfdRa5lhW3p4/edit"
+          "data": "https://docs.google.com/spreadsheets/d/1d5tp978zOa5yaN2zSOlKGtCH6vy2Amm-cHO6MOoRfAo/edit"
         },
         "smartSubstitution": {
           "data": true
-        },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -67,15 +59,15 @@
             "children": [
               {
                 "condition": "CONTAINS",
-                "key": "{{compExamName.filterText ? \"Competitve Exams\" : \"\"}}",
-                "value": "{{compExamName.filterText}}"
+                "key": "{{presentAddCountry.filterText ? \"Country\" : \"\"}}",
+                "value": "{{presentAddCountry.filterText}}"
               }
             ]
           }
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
@@ -85,16 +77,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "compExamName.filterText",
-      "compExamName.filterText ? \"Competitve Exams\" : \"\""
+      "presentAddCountry.filterText",
+      "presentAddCountry.filterText ? \"Country\" : \"\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-18T10:17:10Z"
+    "createdAt": "2023-10-18T09:53:21Z"
   },
-  "id": "Home_Find_compExams1",
+  "id": "Home Copy_Find_Sheet_17",
   "deleted": false,
-  "gitSyncId": "65b7bcfa7f37074a84b3afec_65b7bcfa7f37074a84b3b005"
+  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5bdf"
 }
