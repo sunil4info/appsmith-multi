@@ -155,7 +155,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "VehicleId",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Vehicle Id",
                 "originalIdentifier": "VehicleId",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
