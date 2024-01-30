@@ -30,7 +30,7 @@
         {"key": "derivedColumns.customColumn1.menuColor"},
         {"key": "primaryColumns.customColumn1.menuColor"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "delimiter": ",",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -81,7 +81,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "primaryColumns.customColumn1.borderRadius"}],
     "displayName": "Table",
-    "bottomRow": 65,
+    "bottomRow": 64,
     "parentRowSpace": 10,
     "defaultSelectedRow": "0",
     "hideCard": false,
