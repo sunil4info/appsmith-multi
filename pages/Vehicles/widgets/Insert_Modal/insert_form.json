@@ -241,7 +241,7 @@
     "bottomRow": 47,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Insert Row",
+    "title": "Add Vehicle",
     "type": "JSON_FORM_WIDGET",
     "hideCard": false,
     "animateLoading": true,
