@@ -238,7 +238,7 @@
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('Insert_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
     "topRow": 0,
-    "bottomRow": 47,
+    "bottomRow": 48,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add Vehicle",

@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Find_secondaryEducation1",
+    "name": "Find_Sheet_14",
     "datasource": {
       "name": "fleetManagementDS",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "RegisterStudent",
+    "pageId": "Register",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,21 +42,13 @@
           "data": ""
         },
         "sheetName": {
-          "data": "secondaryEducation"
+          "data": "Sheet 1"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1uMWHr4-eUVqfdem3r8A60x1__Hph2q0MfdRa5lhW3p4/edit"
+          "data": "https://docs.google.com/spreadsheets/d/1d5tp978zOa5yaN2zSOlKGtCH6vy2Amm-cHO6MOoRfAo/edit"
         },
         "smartSubstitution": {
           "data": true
-        },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -67,8 +59,8 @@
             "children": [
               {
                 "condition": "CONTAINS",
-                "key": "{{Select1Copy.filterText ? \"Name of the board\" : \"\"}}",
-                "value": "{{Select1Copy.filterText}}"
+                "key": "{{presentAddCountry.filterText ? \"Country\" : \"\"}}",
+                "value": "{{presentAddCountry.filterText}}"
               }
             ]
           }
@@ -85,16 +77,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select1Copy.filterText",
-      "Select1Copy.filterText ? \"Name of the board\" : \"\""
+      "presentAddCountry.filterText",
+      "presentAddCountry.filterText ? \"Country\" : \"\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-29T17:59:11Z"
+    "createdAt": "2023-10-18T09:50:36Z"
   },
-  "id": "RegisterStudent_Find_secondaryEducation1",
+  "id": "Register_Find_Sheet_14",
   "deleted": false,
-  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5be2"
+  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5bea"
 }

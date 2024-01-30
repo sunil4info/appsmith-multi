@@ -235,7 +235,9 @@
         {"key": "schema.__root_schema__.children.date_of_birth.defaultValue"},
         {"key": "isVisible"},
         {"key": "borderRadius"},
-        {"key": "onSubmit"}
+        {"key": "onSubmit"},
+        {"key": "showReset"},
+        {"key": "disabledWhenInvalid"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -293,7 +295,7 @@
     ],
     "borderWidth": "0",
     "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\")}}",
-    "showReset": true,
+    "showReset": "true",
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
@@ -393,7 +395,7 @@
             "accentColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "disabledWhenInvalid": true,
+    "disabledWhenInvalid": "true",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

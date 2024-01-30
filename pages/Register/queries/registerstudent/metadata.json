@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "RegisterStudent",
+    "pageId": "Register",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -58,7 +58,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-30T06:10:45Z"
   },
-  "id": "RegisterStudent_registerstudent",
+  "id": "Register_registerstudent",
   "deleted": false,
   "gitSyncId": "65b888fb6601643d99bd5c5f_65b892e56601643d99bd5cb0"
 }

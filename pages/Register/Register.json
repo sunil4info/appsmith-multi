@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "RegisterStudent",
-    "slug": "registerstudent",
+    "name": "Register",
+    "slug": "register",
     "layouts": [
       {
         "viewMode": false,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "RegisterStudent",
+        "id": "Register",
         "deleted": false,
         "policies": [],
         "userPermissions": []

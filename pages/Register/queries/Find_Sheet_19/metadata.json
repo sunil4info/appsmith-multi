@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "RegisterStudent",
+    "pageId": "Register",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -94,7 +94,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-29T17:59:11Z"
   },
-  "id": "RegisterStudent_Find_Sheet_19",
+  "id": "Register_Find_Sheet_19",
   "deleted": false,
   "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5bf1"
 }

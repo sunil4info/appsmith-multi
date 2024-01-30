@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Find_Sheet_16",
+    "name": "Find_Sheet_18",
     "datasource": {
       "name": "fleetManagementDS",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "RegisterStudent",
+    "pageId": "Register",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,14 +50,6 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
@@ -92,9 +84,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-18T09:52:30Z"
+    "createdAt": "2023-10-18T09:54:08Z"
   },
-  "id": "RegisterStudent_Find_Sheet_16",
+  "id": "Register_Find_Sheet_18",
   "deleted": false,
-  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5be8"
+  "gitSyncId": "65b7cd7e6601643d99bd5b06_65b7e76f6601643d99bd5be1"
 }
