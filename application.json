@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "SignIn",
+      "isDefault": false
+    },
+    {
       "id": "Home",
       "isDefault": true
     },
@@ -9,7 +13,15 @@
       "isDefault": false
     },
     {
-      "id": "Home Copy",
+      "id": "RegisterStudent",
+      "isDefault": false
+    },
+    {
+      "id": "Vehicles",
+      "isDefault": false
+    },
+    {
+      "id": "Public.Vehicles",
       "isDefault": false
     }
   ],

@@ -1,0 +1,14 @@
+INSERT INTO public."Vehicles" (
+	"Brand",
+	"Model",
+	"VINNumber",
+	"Color",
+	"CreatedOn",
+	"CreatedBy")
+VALUES (
+	'{{insert_form.formData.Brand}}',
+	'{{insert_form.formData.Model}}',
+	'{{insert_form.formData.VINNumber}}',
+	'{{insert_form.formData.Color}}',
+	CURRENT_TIMESTAMP,
+	'1');

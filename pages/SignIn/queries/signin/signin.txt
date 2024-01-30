@@ -1,0 +1,2 @@
+SELECT "Email" FROM public."Students" Where "Email" ='{{studsignemail.text}}' and "Password" = '{{studsignpassword.text}}'
+order by "StudentId" limit 1
