@@ -45,7 +45,7 @@
     "widgetId": "x7tbk2ry5s",
     "allowDialCodeChange": true,
     "minWidth": 450,
-    "label": "Student's Phone Number",
+    "label": "Phone Number",
     "parentId": "mdn1hi1nsc",
     "labelAlignment": "left",
     "allowFormatting": true,

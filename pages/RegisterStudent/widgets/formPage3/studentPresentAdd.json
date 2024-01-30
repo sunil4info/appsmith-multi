@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Student's Address",
+    "text": "Address",
     "key": "htr57cr18g",
     "isDeprecated": false,
     "rightColumn": 30,

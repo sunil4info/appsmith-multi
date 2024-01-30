@@ -89,7 +89,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "CreatedBy",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Created By",
                 "originalIdentifier": "CreatedBy",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",

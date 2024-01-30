@@ -53,7 +53,7 @@
     "rightColumn": 62,
     "widgetId": "unn9zqusjx",
     "minWidth": 450,
-    "label": "Student's Email Address",
+    "label": "Email Address",
     "parentId": "mdn1hi1nsc",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
