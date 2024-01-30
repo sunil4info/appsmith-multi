@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "onSubmit": "",
-    "topRow": 31,
+    "topRow": 28,
     "tooltip": "",
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
@@ -42,7 +42,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 38,
+    "bottomRow": 35,
     "parentRowSpace": 10,
     "autoFocus": true,
     "hideCard": false,

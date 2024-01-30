@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 5,
     "widgetName": "pg3BackButton",
-    "onClick": "{{showModal('formPage2');}}",
+    "onClick": "{{showModal('formPage1');}}",
     "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

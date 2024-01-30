@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.\"Students\" ( \"FirstName\", \"MiddleName\", \"LastName\", \"DOB\", \"Password\", \"FathersName\", \"MothersName\", \"Mobile\", \"FathersMobile\", \"MothersMobile\", \"Email\", \"FathersEmail\", \"MothersEmail\", \"AddressLine1\", \"AddressLine2\", \"City\", \"State\", \"PostalCode\", \"Country\")\n  VALUES ('{{studentFirstName.text}}', '{{studentMiddleName.text}}', '{{studentLastName.text}}', '{{studentDOB.selectedDate.toString()}}', '{{studentpassword.text}}', '{{fatherFirstName.text}}', '{{motherFirstName.text}}', '{{studentPhNo.text}}', '{{fatherPhNo.text}}', '{{motherPhNo.text}}', '{{studentEmAdd.text}}', '{{fatherEmAdd.text}}', '{{motherEmAdd.text}}', '{{presentAddStreetAddL1.text}}', '{{presentAddStreetAddL2.text}}', '{{presentAddCity.text}}', '{{presentAddState.text}}', '{{presentAddZipCode.text}}', '{{presentAddCountry.selectedOptionValue.trim()}}');",
+      "body": "INSERT INTO public.\"Students\" ( \"FirstName\", \"MiddleName\", \"LastName\", \"DOB\", \"Password\", \"FathersName\", \"MothersName\", \"Mobile\",  \"Email\", \"AddressLine1\", \"AddressLine2\", \"City\", \"State\", \"PostalCode\", \"Country\")\n  VALUES ('{{studentFirstName.text}}', '{{studentMiddleName.text}}', '{{studentLastName.text}}', '{{studentDOB.selectedDate.toString()}}', '{{studentpassword.text}}', '{{fatherFirstName.text}}', '{{motherFirstName.text}}', '{{phonenumber.text}}',  '{{email.text}}', '{{presentAddStreetAddL1.text}}', '{{presentAddStreetAddL2.text}}', '{{presentAddCity.text}}', '{{presentAddState.text}}', '{{presentAddZipCode.text}}', '{{presentAddCountry.selectedOptionValue.trim()}}');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,12 +36,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "fatherEmAdd.text",
+      "email.text",
       "fatherFirstName.text",
-      "fatherPhNo.text",
-      "motherEmAdd.text",
       "motherFirstName.text",
-      "motherPhNo.text",
+      "phonenumber.text",
       "presentAddCity.text",
       "presentAddCountry.selectedOptionValue.trim()",
       "presentAddState.text",
@@ -49,11 +47,9 @@
       "presentAddStreetAddL2.text",
       "presentAddZipCode.text",
       "studentDOB.selectedDate.toString()",
-      "studentEmAdd.text",
       "studentFirstName.text",
       "studentLastName.text",
       "studentMiddleName.text",
-      "studentPhNo.text",
       "studentpassword.text"
     ],
     "userSetOnLoad": false,

@@ -2,13 +2,13 @@
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "onSubmit": "",
-    "topRow": 40,
+    "topRow": 28,
     "tooltip": "",
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": false,
-    "leftColumn": 1,
+    "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -42,7 +42,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 47,
+    "bottomRow": 35,
     "parentRowSpace": 10,
     "autoFocus": true,
     "hideCard": false,
@@ -53,7 +53,7 @@
     "key": "k8yrly3q1f",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 22,
+    "rightColumn": 45,
     "widgetId": "4ipgj7orsg",
     "errorMessage": "Not a valid input!",
     "minWidth": 450,
