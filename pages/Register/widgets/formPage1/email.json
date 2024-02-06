@@ -9,11 +9,13 @@
     "leftColumn": 43,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "validation"}
     ],
     "labelStyle": "",
     "inputType": "EMAIL",
     "isDisabled": false,
+    "validation": "{{validator.isEmail(email.text)}}",
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -48,6 +50,7 @@
     "isDeprecated": false,
     "rightColumn": 63,
     "widgetId": "k0hs523qtt",
+    "errorMessage": "Email is not valid!",
     "minWidth": 450,
     "label": "Email",
     "parentId": "ksy7ovdssi",
