@@ -2,9 +2,9 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "btn_signIn",
-    "onClick": "{{signin.run(() =>{\n\t\tconst data = signin?.data;\n\tif(data[0] != null)\n\t{\n\t\tstoreValue(\"Email\", data[0].Email);\n\t  navigateTo('Vehicles', {}, 'SAME_WINDOW');\n\t}\n\telse\n\t{\nshowAlert(\"Email or Password is wrong\");\n\t}\n}\n)}}",
+    "onClick": "{{Sign.SignFunc();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
     "searchTags": [

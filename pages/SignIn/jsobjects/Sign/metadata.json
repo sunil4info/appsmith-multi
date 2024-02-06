@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Sign",
+    "pageId": "SignIn",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "SignIn_Sign",
+  "deleted": false,
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c1fde56601643d99bd5f4d"
+}
