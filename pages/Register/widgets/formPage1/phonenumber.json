@@ -9,12 +9,11 @@
     "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "validation"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "isDisabled": false,
-    "validation": "{{validator.Isp(studsignemail.text)}}",
+    "validation": "",
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -41,6 +40,7 @@
     "isDeprecated": false,
     "rightColumn": 43,
     "widgetId": "fgqu49qcws",
+    "errorMessage": "",
     "allowDialCodeChange": false,
     "minWidth": 450,
     "label": "Phone",

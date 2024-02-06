@@ -23,7 +23,8 @@
     "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "validation"}
     ],
     "labelPosition": "Top",
     "labelStyle": "",
@@ -31,6 +32,7 @@
     "placeholderText": "Enter your email",
     "isDisabled": false,
     "key": "2use2p5sva",
+    "validation": "{{validator.isEmail(studsignpassword.text)}}",
     "labelTextSize": "0.875rem",
     "isRequired": true,
     "isDeprecated": false,
@@ -38,6 +40,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "nckbq8kovr",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "errorMessage": "Email is not valid!",
     "isVisible": true,
     "label": "Email",
     "version": 2,

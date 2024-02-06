@@ -11,14 +11,15 @@
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "validation"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
     "maxChars": "126",
     "placeholderText": "Micheal",
     "isDisabled": false,
-    "validation": "",
+    "validation": "{{validator.isEmpty(studentFirstName.text)}}",
     "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
