@@ -52,7 +52,7 @@
     "widgetId": "k0hs523qtt",
     "errorMessage": "Email is not valid!",
     "minWidth": 450,
-    "label": "Email",
+    "label": "Email*",
     "parentId": "ksy7ovdssi",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

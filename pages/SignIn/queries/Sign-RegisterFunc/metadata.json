@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "Sign.myFun1",
+    "name": "RegisterFunc",
+    "fullyQualifiedName": "Sign.RegisterFunc",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-02-06T09:37:41Z"
   },
-  "id": "SignIn_Sign.myFun1",
+  "id": "SignIn_Sign.RegisterFunc",
   "deleted": false,
   "gitSyncId": "65b888fb6601643d99bd5c5f_65c1fde56601643d99bd5f49"
 }

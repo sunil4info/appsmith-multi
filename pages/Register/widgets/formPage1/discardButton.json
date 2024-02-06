@@ -4,7 +4,7 @@
     "mobileBottomRow": 5,
     "widgetName": "discardButton",
     "onClick": "{{closeModal('formPage1').then(() => {});}}",
-    "buttonColor": "#e74c3c",
+    "buttonColor": "#ffffff",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -21,8 +21,8 @@
     "parentColumnSpace": 11.53125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 53,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "Discard",
+    "dynamicBindingPathList": [],
+    "text": "Back",
     "isDisabled": false,
     "key": "1ketj7j9w4",
     "isDeprecated": false,
@@ -41,9 +41,9 @@
     "mobileTopRow": 1,
     "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "mobileLeftColumn": 47,
-    "buttonVariant": "TERTIARY",
+    "buttonVariant": "PRIMARY",
     "iconAlign": "right",
     "placement": "CENTER"
 }

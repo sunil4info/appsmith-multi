@@ -1,9 +1,10 @@
 export default {
 	myVar1: [],
 	myVar2: {},
-	myFun1 () {
+	RegisterFunc () {
 		//	write code here
 		//	this.myVar1 = [1,2,3]
+		navigateTo("Register");
 	},
 	async SignFunc () {
 		//	use async-await or promises

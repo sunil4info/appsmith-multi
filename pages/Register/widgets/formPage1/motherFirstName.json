@@ -55,7 +55,7 @@
     "isDeprecated": false,
     "rightColumn": 45,
     "widgetId": "4ipgj7orsg",
-    "errorMessage": "Not a valid input!",
+    "errorMessage": "This field is required!",
     "minWidth": 450,
     "label": "Mother's First Name",
     "parentId": "ksy7ovdssi",

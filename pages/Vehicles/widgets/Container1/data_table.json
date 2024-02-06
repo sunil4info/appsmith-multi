@@ -28,7 +28,8 @@
         {"key": "primaryColumns.customColumn1.boxShadow"},
         {"key": "derivedColumns.customColumn1.borderRadius"},
         {"key": "derivedColumns.customColumn1.menuColor"},
-        {"key": "primaryColumns.customColumn1.menuColor"}
+        {"key": "primaryColumns.customColumn1.menuColor"},
+        {"key": "primaryColumns.ImageUrl.computedValue"}
     ],
     "leftColumn": 1,
     "delimiter": ",",
@@ -77,6 +78,7 @@
         "CreatedBy",
         "UpdatedOn",
         "UpdatedBy",
+        "ImageUrl",
         "customColumn1"
     ],
     "dynamicPropertyPathList": [{"key": "primaryColumns.customColumn1.borderRadius"}],
@@ -241,6 +243,25 @@
             "enableFilter": true,
             "enableSort": true,
             "id": "UpdatedOn",
+            "isDisabled": false,
+            "cellBackground": "#f4f4f5",
+            "verticalAlignment": "CENTER"
+        },
+        "ImageUrl": {
+            "isCellVisible": true,
+            "isDerived": false,
+            "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.ImageUrl))}}",
+            "textSize": "0.875rem",
+            "index": 9,
+            "isVisible": true,
+            "label": "ImageUrl",
+            "textColor": "#231f20",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "width": 150,
+            "enableFilter": true,
+            "enableSort": true,
+            "id": "ImageUrl",
             "isDisabled": false,
             "cellBackground": "#f4f4f5",
             "verticalAlignment": "CENTER"

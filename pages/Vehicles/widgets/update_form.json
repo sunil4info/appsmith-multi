@@ -188,6 +188,28 @@
                 "isDisabled": false,
                 "fieldType": "Text Input"
             },
+            "ImageUrl": {
+                "labelTextSize": "0.875rem",
+                "identifier": "ImageUrl",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ImageUrl))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                "dataType": "string",
+                "accessor": "ImageUrl",
+                "isVisible": true,
+                "label": "Image Url",
+                "originalIdentifier": "ImageUrl",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 9,
+                "isDisabled": false,
+                "sourceData": "https://i.ibb.co/mNGDZkp/Z.jpg",
+                "fieldType": "Text Input"
+            },
             "CreatedOn": {
                 "labelTextSize": "0.875rem",
                 "identifier": "CreatedOn",
@@ -291,7 +313,10 @@
         {"key": "schema.__root_schema__.children.UpdatedOn.accentColor"},
         {"key": "schema.__root_schema__.children.UpdatedBy.defaultValue"},
         {"key": "schema.__root_schema__.children.UpdatedBy.borderRadius"},
-        {"key": "schema.__root_schema__.children.UpdatedBy.accentColor"}
+        {"key": "schema.__root_schema__.children.UpdatedBy.accentColor"},
+        {"key": "schema.__root_schema__.children.ImageUrl.defaultValue"},
+        {"key": "schema.__root_schema__.children.ImageUrl.borderRadius"},
+        {"key": "schema.__root_schema__.children.ImageUrl.accentColor"}
     ],
     "borderWidth": "0",
     "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\")}}",

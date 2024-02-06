@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 52,
     "widgetName": "pg1NextButton",
-    "onClick": "{{showModal('formPage3');}}",
+    "onClick": "{{RegistrationJS.next();}}",
     "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

@@ -45,7 +45,7 @@
     "rightColumn": 22,
     "widgetId": "f1lxklkept",
     "minWidth": 450,
-    "label": "Date of Birth",
+    "label": "Date of Birth*",
     "parentId": "ksy7ovdssi",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
