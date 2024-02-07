@@ -17,10 +17,6 @@
       "isDefault": false
     },
     {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
       "id": "SignIn",
       "isDefault": true
     },
