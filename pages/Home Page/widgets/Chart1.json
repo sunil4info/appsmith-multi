@@ -179,7 +179,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "yAxisName": "",
-    "chartName": "Workload",
+    "chartName": "Vehicle Orders",
     "borderRadius": "0px",
     "xAxisName": "",
     "chartType": "BAR_CHART"

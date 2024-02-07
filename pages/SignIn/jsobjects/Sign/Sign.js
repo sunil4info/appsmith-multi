@@ -20,6 +20,7 @@ export default {
 			if(data[0] != null)
 			{
 				storeValue("Email", data[0].Email);
+				showAlert(appsmith.store.Email);
 				//navigateTo('Vehicles', {}, 'SAME_WINDOW');
 				//navigateTo('Dashboard', {}, 'SAME_WINDOW');
 				navigateTo('Home Page', {}, 'SAME_WINDOW');

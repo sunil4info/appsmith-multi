@@ -35,6 +35,10 @@
     {
       "id": "Vehicles",
       "isDefault": false
+    },
+    {
+      "id": "Orders",
+      "isDefault": false
     }
   ],
   "viewMode": false,

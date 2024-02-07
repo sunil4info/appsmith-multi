@@ -21,7 +21,7 @@
     "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Fill out below details to add a new maintenance request",
+    "text": "Fill out below details to add a new order request",
     "key": "p0uhc3c013",
     "isDeprecated": false,
     "rightColumn": 45,

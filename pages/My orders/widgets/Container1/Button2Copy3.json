@@ -20,7 +20,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 13,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "New Work Request",
+    "text": "Vehicle",
     "isDisabled": false,
     "key": "ea7apjwric",
     "isDeprecated": false,

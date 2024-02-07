@@ -16,7 +16,7 @@
     "hideCard": false,
     "chartData": {"gggz0835nx": {
         "data": "[\n  {\n    \"x\": \"Low\",\n    \"y\": 20000\n  },\n  {\n    \"x\": \"Medium\",\n    \"y\": 22000\n  },\n  {\n    \"x\": \"High\",\n    \"y\": 32000\n  },\n  {\n    \"x\": \"Critical\",\n    \"y\": 10000\n  }\n]",
-        "seriesName": "Priority"
+        "seriesName": "Status"
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -178,7 +178,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "yAxisName": "Revenue($)",
-    "chartName": "Requests",
+    "chartName": "Manufacturer",
     "borderRadius": "0px",
     "xAxisName": "Product Line",
     "chartType": "PIE_CHART"

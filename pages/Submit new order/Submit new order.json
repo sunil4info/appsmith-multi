@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 1160,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,16 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit new order_select_category",
-              "name": "select_category",
+              "id": "Submit new order_select_color",
+              "name": "select_color",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Submit new order_select_equipment_db",
-              "name": "select_equipment_db",
+              "id": "Submit new order_select_vehicles",
+              "name": "select_vehicles",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
