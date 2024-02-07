@@ -253,7 +253,7 @@
             "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.ImageUrl))}}",
             "textSize": "0.875rem",
             "index": 9,
-            "isVisible": true,
+            "isVisible": false,
             "label": "ImageUrl",
             "textColor": "#231f20",
             "columnType": "text",

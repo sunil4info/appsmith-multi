@@ -1,6 +1,26 @@
 {
   "pages": [
     {
+      "id": "Submit new order",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Admin",
+      "isDefault": false
+    },
+    {
+      "id": "My orders",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
       "id": "SignIn",
       "isDefault": true
     },
@@ -35,7 +55,7 @@
     }
   },
   "color": "#F3F1C7",
-  "icon": "line-chart",
+  "icon": "globe",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },

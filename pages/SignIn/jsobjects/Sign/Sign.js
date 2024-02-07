@@ -20,7 +20,9 @@ export default {
 			if(data[0] != null)
 			{
 				storeValue("Email", data[0].Email);
-				navigateTo('Vehicles', {}, 'SAME_WINDOW');
+				//navigateTo('Vehicles', {}, 'SAME_WINDOW');
+				//navigateTo('Dashboard', {}, 'SAME_WINDOW');
+				navigateTo('Home Page', {}, 'SAME_WINDOW');
 			}
 			else
 			{

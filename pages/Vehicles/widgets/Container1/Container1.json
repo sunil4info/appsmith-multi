@@ -13,7 +13,7 @@
     "shouldScrollContents": true,
     "parentColumnSpace": 19.75,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -45,7 +45,7 @@
     "borderWidth": "0",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 39,
+    "rightColumn": 47,
     "dynamicHeight": "FIXED",
     "widgetId": "mvubsemxfo",
     "containerStyle": "card",
