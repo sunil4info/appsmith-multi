@@ -15,7 +15,7 @@
     "type": "CHART_WIDGET",
     "hideCard": false,
     "chartData": {"xaqm096h4a": {
-        "data": "[\n  {\n    \"x\": \"Anabella Riseley\",\n    \"y\": 152\n  },\n  {\n    \"x\": \"Rianon Iamittii\",\n    \"y\": 41\n  },\n  {\n    \"x\": \"Ermengarde Faughey\",\n    \"y\": 36\n  },\n   {\n    \"x\": \"Rurik Pandya\",\n    \"y\": 72\n  },\n  {\n    \"x\": \"Jilli Frake\",\n    \"y\": 42\n  }\n]",
+        "data": "[\n  {\n    \"x\": \"Tesla X\",\n    \"y\": 12\n  },\n  {\n    \"x\": \"Tesla Y\",\n    \"y\": 41\n  },\n  {\n    \"x\": \"Tesla Z\",\n    \"y\": 36\n  },\n   {\n    \"x\": \"Tesla S4\",\n    \"y\": 72\n  },\n  {\n    \"x\": \"Tesla 9\",\n    \"y\": 42\n  }\n]",
         "color": "#324479",
         "seriesName": ""
     }},

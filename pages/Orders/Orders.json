@@ -73,6 +73,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Orders_select_vehicles",
+              "name": "select_vehicles",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Orders_select_work_ordersAgent",
               "name": "select_work_ordersAgent",
               "confirmBeforeExecute": false,

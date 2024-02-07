@@ -13,8 +13,8 @@
     "dynamicTriggerPathList": [],
     "imageShape": "RECTANGLE",
     "leftColumn": 2,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "defaultImage": "https://s3.us-east-2.amazonaws.com/template.appsmith.com/group-4465.svg",
+    "dynamicBindingPathList": [],
+    "defaultImage": "https://w7.pngwing.com/pngs/20/721/png-transparent-tesla-motors-2015-tesla-model-s-electric-vehicle-2018-tesla-model-s-viable-financial-logo-angle-text-trademark.png",
     "key": "20b6vlid8h",
     "image": "",
     "isDeprecated": false,
@@ -28,6 +28,6 @@
     "isLoading": false,
     "maxZoomLevel": 1,
     "enableDownload": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "enableRotation": false
 }
