@@ -1,26 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Submit new order",
-    "slug": "submit-new-order",
+    "name": "Page1",
+    "slug": "page1",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1160,
+          "bottomRow": 550,
           "containerStyle": "none",
-          "snapRows": 66,
+          "snapRows": 73,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 670,
+          "minHeight": 750,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit new order_ProductAPI",
+              "id": "Page1_ProductAPI",
               "name": "ProductAPI",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,27 +38,9 @@
           ],
           [
             {
-              "id": "Submit new order_select_color",
-              "name": "select_color",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Submit new order_select_vehicles",
-              "name": "select_vehicles",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Submit new order_JSObject1.GetProduct",
+              "id": "Page1_JSObject1.GetProduct",
               "name": "JSObject1.GetProduct",
-              "collectionId": "Submit new order_JSObject1",
+              "collectionId": "Page1_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
@@ -70,16 +52,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Submit new order",
+        "id": "Page1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": true
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c2405e6601643d99bd5fa6"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c4b7ac6601643d99bd602a"
 }
