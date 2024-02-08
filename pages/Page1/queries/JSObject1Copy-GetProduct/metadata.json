@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "GetProduct",
-    "fullyQualifiedName": "JSObject1.GetProduct",
+    "fullyQualifiedName": "JSObject1Copy.GetProduct",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "collectionId": "Page1_JSObject1Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-08T11:24:33Z"
+    "createdAt": "2024-02-08T17:01:18Z"
   },
-  "id": "Page1_JSObject1.GetProduct",
+  "id": "Page1_JSObject1Copy.GetProduct",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c4b9f16601643d99bd6031"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c508de6601643d99bd6043"
 }

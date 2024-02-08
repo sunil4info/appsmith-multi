@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 550,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_ProductAPI",
-              "name": "ProductAPI",
+              "id": "Page1_NavigationMenu",
+              "name": "NavigationMenu",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -38,13 +38,13 @@
           ],
           [
             {
-              "id": "Page1_JSObject1.GetProduct",
-              "name": "JSObject1.GetProduct",
-              "collectionId": "Page1_JSObject1",
+              "id": "Page1_JSObject1Copy.GetProduct",
+              "name": "JSObject1Copy.GetProduct",
+              "collectionId": "Page1_JSObject1Copy",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  const data = ProductAPI.data?.data;\n  if (data[0] != null) {\n    return ProductAPI.data?.data.map(i => ({\n      label: i[\"productName\"],\n      value: i[\"productName\"]\n    }));\n  }\n}"
+                "() => {\n  const data = NavigationMenu.data.data;\n  return data;\n}"
               ],
               "timeoutInMillisecond": 10000
             }
