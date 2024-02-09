@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Users",
+    "slug": "users",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 620,
           "containerStyle": "none",
-          "snapRows": 73,
+          "snapRows": 55,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 750,
+          "minHeight": 570,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_NavigationMenu",
-              "name": "NavigationMenu",
+              "id": "Users_getUsers",
+              "name": "getUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -38,13 +38,14 @@
           ],
           [
             {
-              "id": "Page1_JsNavigation.GetNavigation",
-              "name": "JsNavigation.GetNavigation",
-              "collectionId": "Page1_JsNavigation",
+              "id": "Users_users.GetUsers",
+              "name": "users.GetUsers",
+              "collectionId": "Users_users",
+              "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  const data = NavigationMenu.data.data;\n  return data;\n}"
+                "async function () {\n  return getUsers.data?.data;\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -52,15 +53,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Users",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c4b7ac6601643d99bd602a"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c633676601643d99bd60b6"
 }

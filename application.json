@@ -39,6 +39,18 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Resister User",
+      "isDefault": false
+    },
+    {
+      "id": "Authenticate User",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
+      "isDefault": false
     }
   ],
   "viewMode": false,

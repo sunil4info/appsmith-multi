@@ -18,7 +18,7 @@
         {"key": "primaryKeys"},
         {"key": "listData"}
     ],
-    "leftColumn": 13,
+    "leftColumn": 7,
     "serverSidePagination": false,
     "enhancements": true,
     "children": [{
@@ -90,8 +90,8 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{JSObject1Copy.GetProduct.data}}",
-    "dynamicPropertyPathList": [{"key": "onItemClick"}],
+    "listData": "{{JsNavigation.GetNavigation.data}}",
+    "dynamicPropertyPathList": [],
     "displayName": "List",
     "bottomRow": 94,
     "parentRowSpace": 10,
@@ -106,7 +106,7 @@
     "key": "q5r2tsxvr3",
     "backgroundColor": "#ffffff",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 31,
     "widgetId": "y0505bm3vj",
     "minWidth": 450,
     "onItemClick": "",

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "NavigationMenu",
+    "name": "authenticate",
     "datasource": {
       "name": "http://172.29.22.70:32003",
       "pluginId": "restapi-plugin",
@@ -16,11 +16,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Authenticate User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/users/9/buildUserNavigationByUserId",
+      "path": "/api/authentication/authenticate",
       "headers": [
         {
           "key": "accept",
@@ -37,49 +37,37 @@
         {
           "key": "Content-Type",
           "value": "application/json"
-        },
-        {
-          "key": "sec-ch-ua-platform",
-          "value": "\"Windows\""
-        },
-        {
-          "key": "sec-fetch-mode",
-          "value": "cors"
-        },
-        {
-          "key": "sec-fetch-site",
-          "value": "cross-site"
-        },
-        {
-          "key": "accountid",
-          "value": "17"
-        },
-        {
-          "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxMiIsImp0aSI6ImJhYTk2ZWRkLTQ1NDgtNGM1Yy1iOTk2LWRjNGEwZWIzOWY1NyIsIm5iZiI6MTcwNzQ3OTE5NiwiZXhwIjoxNzA3NDc5NDk2LCJpYXQiOjE3MDc0NzkxOTYsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6OTAwNCJ9.qdNFZZjNbpWgTfaWSy8089Nc9OE8KV4D12IpDvixp98"
         }
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "httpMethod": "GET",
+      "body": "{\"userName\":{{signusername.text}},\"password\":{{signpassword.text}}}",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "signpassword.text",
+      "signusername.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-08T15:10:56Z"
+    "createdAt": "2024-02-09T14:36:24Z"
   },
-  "id": "Page1_NavigationMenu",
+  "id": "Authenticate User_authenticate",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c4ef006601643d99bd603b"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c638686601643d99bd60c0"
 }
