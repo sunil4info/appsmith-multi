@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "select_work_orders",
+    "name": "select_equipment_db",
     "datasource": {
       "name": "Mock_DB",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Regsister User",
+    "pageId": "Register User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from work_orders",
+      "body": "select * from equipment_db",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -35,9 +35,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-02-06T14:21:19Z"
   },
-  "id": "Regsister User_select_work_orders",
+  "id": "Register User_select_equipment_db",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd607d"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd6076"
 }

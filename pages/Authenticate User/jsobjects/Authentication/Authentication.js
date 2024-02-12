@@ -3,7 +3,7 @@ export default {
 	RegisterFunc () {
 		//	write code here
 		//	this.myVar1 = [1,2,3]
-		navigateTo("Register");
+		navigateTo("Dashboard");
 	},
 	async SignFunc () {
 		//	use async-await or promises
@@ -30,6 +30,6 @@ export default {
 				showAlert("Username or Password is wrong");
 			}
 		}
-								)}}
+											)}}
 	}
 }

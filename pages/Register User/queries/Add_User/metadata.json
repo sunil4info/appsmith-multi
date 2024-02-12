@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Regsister User",
+    "pageId": "Register User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -72,7 +72,7 @@
     "userPermissions": [],
     "createdAt": "2024-02-09T13:33:01Z"
   },
-  "id": "Regsister User_Add_User",
+  "id": "Register User_Add_User",
   "deleted": false,
   "gitSyncId": "65b888fb6601643d99bd5c5f_65c6298d6601643d99bd608a"
 }

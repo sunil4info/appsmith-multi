@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Regsister User",
-    "slug": "regsister-user",
+    "name": "Register User",
+    "slug": "register-user",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Regsister User",
+        "id": "Register User",
         "deleted": false,
         "policies": [],
         "userPermissions": []

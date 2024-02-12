@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Regsister User",
+    "pageId": "Register User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -45,7 +45,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Regsister User_insert_work_orders",
+  "id": "Register User_insert_work_orders",
   "deleted": false,
   "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd6073"
 }
