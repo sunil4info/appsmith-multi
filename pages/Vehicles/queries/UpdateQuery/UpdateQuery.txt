@@ -1,0 +1,8 @@
+UPDATE public."Vehicles" SET
+		"Brand" = '{{update_form.fieldState.Brand.isVisible ? update_form.formData.Brand : update_form.sourceData.Brand}}',
+		"Model" = '{{update_form.fieldState.Model.isVisible ? update_form.formData.Model : update_form.sourceData.Model}}',
+    "VINNumber" = '{{update_form.fieldState.VINNumber.isVisible ? update_form.formData.VINNumber : update_form.sourceData.VINNumber}}',
+		"Color" = '{{update_form.fieldState.Color.isVisible ? update_form.formData.Color : update_form.sourceData.Color}}',
+		"UpdatedOn" = CURRENT_TIMESTAMP,
+		"UpdatedBy" = '1'
+WHERE "VehicleId" = {{data_table.selectedRow.VehicleId}};

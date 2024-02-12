@@ -1,11 +1,55 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Submit new order",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Admin",
+      "isDefault": false
+    },
+    {
+      "id": "My orders",
+      "isDefault": false
+    },
+    {
+      "id": "SignIn",
       "isDefault": true
     },
     {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Register",
+      "isDefault": false
+    },
+    {
+      "id": "Vehicles",
+      "isDefault": false
+    },
+    {
+      "id": "Orders",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Regsister User",
+      "isDefault": false
+    },
+    {
+      "id": "Authenticate User",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
       "isDefault": false
     }
   ],
@@ -16,18 +60,18 @@
   "unpublishedApplicationDetail": {
     "navigationSetting": {
       "showNavbar": true,
-      "orientation": "top",
-      "navStyle": "inline",
+      "orientation": "side",
+      "navStyle": "sidebar",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
       "showSignIn": true
     }
   },
   "color": "#F3F1C7",
-  "icon": "line-chart",
+  "icon": "globe",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
@@ -35,6 +79,9 @@
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [
+    {
+      "uidString": "validator_https://cdn.jsdelivr.net/npm/validator@13.11.0/validator.min.js"
+    },
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
     }

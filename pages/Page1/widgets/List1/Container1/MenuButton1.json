@@ -1,0 +1,84 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 4,
+    "widgetName": "MenuButton1",
+    "configureMenuItems": {
+        "label": "Configure menu items",
+        "id": "config",
+        "config": {
+            "onClick": "",
+            "id": "config",
+            "label": "{{MenuButton1.sourceData.map((currentItem, currentIndex) => ( currentItem.moduleDisplayName))}}",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "dynamicPropertyPathList": [{"key": "configureMenuItems.config.onClick"}],
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 22,
+    "animateLoading": true,
+    "parentColumnSpace": 6.9921875,
+    "dynamicTriggerPathList": [{"key": "configureMenuItems.config.onClick"}],
+    "leftColumn": 6,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"},
+        {"key": "label"},
+        {"key": "sourceData"},
+        {"key": "configureMenuItems.config.label"}
+    ],
+    "isDisabled": false,
+    "sourceData": "{{currentItem.navigations}}",
+    "key": "dkzv926apg",
+    "isDeprecated": false,
+    "rightColumn": 22,
+    "dynamicHeight": "FIXED",
+    "menuVariant": "PRIMARY",
+    "widgetId": "p57yadu30d",
+    "menuItems": {
+        "menuItem1": {
+            "widgetId": "",
+            "index": 0,
+            "label": "First Menu Item",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem3": {
+            "widgetId": "",
+            "index": 2,
+            "label": "Third Menu Item",
+            "id": "menuItem3",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "widgetId": "",
+            "index": 1,
+            "label": "Second Menu Item",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": "{{currentItem.moduleDisplayName}}",
+    "version": 1,
+    "parentId": "85ng7omjdc",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 0,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 6,
+    "menuItemsSource": "DYNAMIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "placement": "CENTER"
+}

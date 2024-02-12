@@ -1,0 +1,12 @@
+{
+    "accountId": 17,
+    "authenticationTypeId": 1,
+    "userName": {{username_input.text}},
+    "password": {{password_input.text}},
+    "firstName": {{firstname_input.text}},
+    "lastName": {{lastname_input.text}},
+    "emailAddress": {{email_input.text}},
+    "mobile": {{mobile_input.text}},
+    "mfaTypeId": 0,
+    "userStatus":1
+}

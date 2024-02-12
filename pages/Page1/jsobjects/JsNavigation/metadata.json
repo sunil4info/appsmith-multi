@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JsNavigation",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_JsNavigation",
+  "deleted": false,
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c508de6601643d99bd6047"
+}
