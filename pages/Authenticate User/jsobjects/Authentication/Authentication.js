@@ -19,8 +19,9 @@ export default {
 			if(data.error == null)
 			{
 				storeValue("token", data.data.token);
-				showAlert(appsmith.store.token);
-				//navigateTo('Vehicles', {}, 'SAME_WINDOW');
+				storeValue("refresh", data.data.refresh);
+				//showAlert(appsmith.store.token);
+				navigateTo('Users',{});
 				//navigateTo('Dashboard', {}, 'SAME_WINDOW');
 				//navigateTo('Home Page', {}, 'SAME_WINDOW');
 			}

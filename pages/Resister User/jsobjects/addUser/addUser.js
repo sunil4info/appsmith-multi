@@ -7,7 +7,7 @@ export default {
 	if(responsedata != null)
 	{
 		showAlert(data.message);
-		navigateTo('SignIn',{});
+		navigateTo('Authenticate User',{});
 	}
 	else
 	{

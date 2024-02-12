@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 620,
+          "bottomRow": 1090,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -32,7 +32,32 @@
               "name": "getUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.token"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Users_refreshtoken",
+              "name": "refreshtoken",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.refresh"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Users_users.refreshAccessToken",
+              "name": "users.refreshAccessToken",
+              "collectionId": "Users_users",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  const newtoken = refreshtoken.data?.data.access;\n  storeValue(\"token\", newtoken);\n  showAlert(newtoken);\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

@@ -30,7 +30,7 @@
         {"key": "primaryColumns.country.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 15,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -557,7 +557,7 @@
     "key": "33hav0ahyu",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 57,
     "textSize": "0.875rem",
     "widgetId": "3owiykcnhe",
     "minWidth": 450,

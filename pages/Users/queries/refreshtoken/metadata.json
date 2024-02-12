@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getUsers",
+    "name": "refreshtoken",
     "datasource": {
       "name": "http://172.29.22.70:32003",
       "pluginId": "restapi-plugin",
@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/users",
+      "path": "/api/users/refresh",
       "headers": [
         {
           "key": "accept",
@@ -35,22 +35,14 @@
           "value": "84a4b5cc-9f84-4d79-b92f-4a6b01289dc0"
         },
         {
-          "key": "authorization",
-          "value": "Bearer {{appsmith.store.token}}"
-        },
-        {
           "key": "Content-Type",
           "value": "application/json"
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "all",
-          "value": "false"
-        }
-      ],
-      "httpMethod": "GET",
+      "queryParameters": [],
+      "body": "{\n  \"refresh\": {{appsmith.store.refresh}}\n}",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
         "apiContentType": "application/json"
@@ -59,22 +51,22 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "headers[3].value"
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.token"
+      "appsmith.store.refresh"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-09T14:19:58Z"
+    "createdAt": "2024-02-12T05:58:04Z"
   },
-  "id": "Users_getUsers",
+  "id": "Users_refreshtoken",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c6348e6601643d99bd60be"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c9b36c6601643d99bd60c8"
 }
