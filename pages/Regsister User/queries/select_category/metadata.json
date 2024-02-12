@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "select_equipment_db",
+    "name": "select_category",
     "datasource": {
       "name": "Mock_DB",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Resister User",
+    "pageId": "Regsister User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from equipment_db",
+      "body": "select * from category",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-02-06T14:21:19Z"
   },
-  "id": "Resister User_select_equipment_db",
+  "id": "Regsister User_select_category",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd6076"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd6074"
 }

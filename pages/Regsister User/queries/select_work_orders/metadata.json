@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "insert_work_orders",
+    "name": "select_work_orders",
     "datasource": {
       "name": "Mock_DB",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Resister User",
+    "pageId": "Regsister User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO work_orders\n\t( work_id,equipment,category,description,request_date,customer_name,customer_email) values\n\t(\n\t\t{{workid.text}},\n\t\t{{equipment_select.selectedOptionValue}},\n\t\t{{category_select.selectedOptionValue}},\n\t\t{{desc_input.text}},\n\t\t{{date_pick.formattedDate}},\n\t\t{{name_input.text}},\n\t\t{{email_input.text}}\n\t);",
+      "body": "select * from work_orders",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -31,21 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "category_select.selectedOptionValue",
-      "date_pick.formattedDate",
-      "desc_input.text",
-      "email_input.text",
-      "equipment_select.selectedOptionValue",
-      "name_input.text",
-      "workid.text"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Resister User_insert_work_orders",
+  "id": "Regsister User_select_work_orders",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd6073"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c624f36601643d99bd607d"
 }

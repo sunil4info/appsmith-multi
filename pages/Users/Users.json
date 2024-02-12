@@ -56,7 +56,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  const newtoken = refreshtoken.data?.data.access;\n  storeValue(\"token\", newtoken);\n  showAlert(newtoken);\n}"
+                "() => {\n  const newtoken = refreshtoken.data?.data.access;\n  storeValue(\"token\", newtoken);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -41,7 +41,7 @@
       "isDefault": false
     },
     {
-      "id": "Resister User",
+      "id": "Regsister User",
       "isDefault": false
     },
     {
@@ -80,10 +80,10 @@
   },
   "unpublishedCustomJSLibs": [
     {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+      "uidString": "validator_https://cdn.jsdelivr.net/npm/validator@13.11.0/validator.min.js"
     },
     {
-      "uidString": "validator_https://cdn.jsdelivr.net/npm/validator@13.11.0/validator.min.js"
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
     }
   ],
   "publishedCustomJSLibs": [],
