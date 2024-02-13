@@ -79,7 +79,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 10,
-    "onClose": "{{closeModal('modalEditUser');}}",
+    "onClose": "{{closeModal('modalEditUser').then(() => {\n  users.GetUsers();\n});}}",
     "borderRadius": "0px",
     "mobileLeftColumn": 15,
     "maxDynamicHeight": 9000,

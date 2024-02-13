@@ -12,7 +12,15 @@ export default {
 			{
 
 				showAlert(data.message);
-				users.GetUsers();
+				//setTimeout((users.GetUsers(),1000));
+				//tblUsers.selectedRow.firstName = inputFirstName.text;
+				//showAlert(tblUsers.selectedRow.firstName);
+				//tblUsers.triggeredRow.firstName = inputFirstName.text;
+				//showAlert(tblUsers.triggeredRow.firstName);
+				//getUsers.run();
+				//navigateTo('Users');
+				//tblUsers.
+				//closeModal('modalEditUser');
 				//tblUsers.triggeredRow.firstName = inputFirstName;
 				//tblUsers.triggeredRow.lastName = inputLastName;
 				//closeModal('modalEditUser');
@@ -26,6 +34,8 @@ export default {
 			}
 		}
 								 )
+
+
 	},
 	signOut(){
 		storeValue('token','');
