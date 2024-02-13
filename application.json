@@ -18,7 +18,7 @@
     },
     {
       "id": "SignIn",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Home",
@@ -46,7 +46,7 @@
     },
     {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Users",

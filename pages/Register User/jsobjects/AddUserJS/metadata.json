@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "AddUserJS",
+    "pageId": "Register User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Register User_AddUserJS",
+  "deleted": false,
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65cb0e9a6601643d99bd613f"
+}

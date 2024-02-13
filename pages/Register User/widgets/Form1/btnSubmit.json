@@ -2,7 +2,7 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "btnSubmit",
-    "onClick": "{{addUser.regitstuser()}}",
+    "onClick": "{{AddUserJS.regitstuser()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
