@@ -86,8 +86,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                " workOrdersTable.pageSize ",
                 " (workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
+                " workOrdersTable.pageSize ",
                 "selectAgent.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
@@ -128,8 +128,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
-                " workOrdersTable.pageSize "
+                " workOrdersTable.pageSize ",
+                "(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize "
               ],
               "timeoutInMillisecond": 10000
             },

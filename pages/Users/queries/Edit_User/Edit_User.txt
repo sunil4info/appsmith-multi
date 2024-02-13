@@ -1,0 +1,8 @@
+{
+    "userName":{{inputUsername.text}},
+    "firstName":{{inputFirstName.text}},
+    "lastName":{{inputLastName.text}},
+    "emailAddress":{{inputEmail.text}},
+    "mobile":{{inputMobile.text}},
+    "userStatus":1
+}

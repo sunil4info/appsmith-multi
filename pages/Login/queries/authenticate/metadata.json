@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getUsers",
+    "name": "authenticate",
     "datasource": {
       "name": "http://172.29.22.70:32003",
       "pluginId": "restapi-plugin",
@@ -16,11 +16,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Users",
+    "pageId": "Login",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/users",
+      "path": "/api/authentication/authenticate",
       "headers": [
         {
           "key": "accept",
@@ -35,46 +35,39 @@
           "value": "c06c771b-5adf-46ae-87b6-4a81bd2bda81"
         },
         {
-          "key": "authorization",
-          "value": "Bearer {{appsmith.store.token}}"
-        },
-        {
           "key": "Content-Type",
           "value": "application/json"
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "all",
-          "value": "true"
-        }
-      ],
-      "httpMethod": "GET",
+      "queryParameters": [],
+      "body": "{\"userName\":{{signusername.text}},\"password\":{{signpassword.text}}}",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "headers[3].value"
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.token"
+      "signpassword.text",
+      "signusername.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-09T14:19:58Z"
+    "createdAt": "2024-02-09T14:36:24Z"
   },
-  "id": "Users_getUsers",
+  "id": "Login_authenticate",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c6348e6601643d99bd60be"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65c638686601643d99bd60c0"
 }

@@ -15,7 +15,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 15,
+    "leftColumn": 14,
     "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "widgetName": "Canvas2Copy",
@@ -46,7 +46,7 @@
     "key": "j1iowzd78r",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "widgetId": "d6wonszfju",
     "isVisible": true,
