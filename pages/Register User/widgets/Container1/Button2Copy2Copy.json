@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button2Copy2Copy",
-    "onClick": "{{navigateTo('SignIn', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{AddUserJS.signOut();}}",
     "buttonColor": "transparent",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
