@@ -26,6 +26,10 @@ export default {
 			}
 		}
 								 )
+	},
+	signOut(){
+		storeValue('token','');
+		navigateTo('Login');
 	}
 
 }
