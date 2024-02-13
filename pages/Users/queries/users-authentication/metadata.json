@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "GetUsers",
-    "fullyQualifiedName": "users.GetUsers",
+    "name": "authentication",
+    "fullyQualifiedName": "users.authentication",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": true,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,10 +34,9 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2024-02-09T14:16:53Z"
+    "userPermissions": []
   },
-  "id": "Users_users.GetUsers",
+  "id": "Users_users.authentication",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c633d56601643d99bd60b9"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65cb36606601643d99bd6152"
 }

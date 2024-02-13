@@ -38,25 +38,13 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Users_refreshtoken",
-              "name": "refreshtoken",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.refresh"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Users_users.refreshAccessToken",
-              "name": "users.refreshAccessToken",
+              "id": "Users_users.authentication",
+              "name": "users.authentication",
               "collectionId": "Users_users",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  const newtoken = refreshtoken.data?.data.access;\n  storeValue(\"token\", newtoken);\n}"
+                "function () {\n  var token = appsmith.store.token;\n  if (token === null || token === '' || token === 'undefined') {\n    navigateTo('Login');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -70,7 +58,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  return getUsers.data?.data;\n}"
+                "async function () {\n  var data = getUsers.data?.data;\n  if (data != null) {\n    return data;\n  } else {\n    navigateTo('Login');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

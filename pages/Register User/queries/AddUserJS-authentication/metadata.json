@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "refreshAccessToken",
-    "fullyQualifiedName": "users.refreshAccessToken",
+    "name": "authentication",
+    "fullyQualifiedName": "AddUserJS.authentication",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Users",
-    "collectionId": "Users_users",
+    "pageId": "Register User",
+    "collectionId": "Register User_AddUserJS",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Users_users.refreshAccessToken",
+  "id": "Register User_AddUserJS.authentication",
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c9b4996601643d99bd60ca"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65cb2ad56601643d99bd614b"
 }

@@ -1,8 +1,7 @@
 export default {
 
-	async editUser () {
-		//{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\n ${error}`,'error'))}}
-
+	editUser () {
+		users.refreshAccessToken();
 
 		Edit_User.run(() =>{
 
@@ -15,7 +14,7 @@ export default {
 				//tblUsers.triggeredRow.firstName = inputFirstName;
 				//tblUsers.triggeredRow.lastName = inputLastName;
 				closeModal('modalEditUser');
-				navigateTo('Users');
+				//navigateTo();
 				//setInterval(() => { users.GetUsers(); }, 1000, "myTimer");
 			}
 			else
