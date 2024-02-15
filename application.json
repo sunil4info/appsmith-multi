@@ -46,7 +46,7 @@
     },
     {
       "id": "Login",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Users",
@@ -54,6 +54,14 @@
     },
     {
       "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Ecom-Login",
+      "isDefault": true
+    },
+    {
+      "id": "Ecom-UserRegister",
       "isDefault": false
     }
   ],

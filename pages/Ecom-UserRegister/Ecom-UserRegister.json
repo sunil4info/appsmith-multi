@@ -1,36 +1,46 @@
 {
   "unpublishedPage": {
-    "name": "Login",
-    "slug": "login",
-    "customSlug": "",
+    "name": "Ecom-UserRegister",
+    "slug": "ecom-userregister",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1160,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 720,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Ecom-UserRegister_AddUserJS.authentication",
+              "name": "AddUserJS.authentication",
+              "collectionId": "Ecom-UserRegister_AddUserJS",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Login",
+        "id": "Ecom-UserRegister",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -38,8 +48,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65b888fb6601643d99bd5c5f_65c6327c6601643d99bd60a5"
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65cda9ed6601643d99bd61e7"
 }

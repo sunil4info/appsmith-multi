@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Authentication",
+    "pageId": "Ecom-Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Ecom-Login_Authentication",
+  "deleted": false,
+  "gitSyncId": "65b888fb6601643d99bd5c5f_65cda6216601643d99bd61e4"
+}
